@@ -84,3 +84,4 @@ teardown() {
     run diff -wbB test_data/large_dir_sizes "$BATS_TMPDIR"/outputFile
     [ "$status" -eq 0 ]
 }
+
